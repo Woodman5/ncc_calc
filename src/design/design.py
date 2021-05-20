@@ -891,4 +891,5 @@ class Ui_MainWindow(object):
         self.folderLabel.setText(_translate("MainWindow", "TextLabel"))
         self.btnSave.setText(_translate("MainWindow", "Сохранить проект"))
         self.btnGenerate.setText(_translate("MainWindow", "Создать сборку"))
-import prj_rc
+
+from . import prj_rc
